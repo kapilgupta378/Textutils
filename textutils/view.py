@@ -17,6 +17,7 @@ def analayze(request):
    charectorcounter = request.POST.get('charectorcounter','off')
 
    #Check removepunccheckbox is on
+   #Check removepunccheckbox is on
    if removepunc == 'on':
        punctuations = '''!"#$%&'()*+,-./:;<=>?@[\]^_`{|}~'''
        analayzed1 = ""
